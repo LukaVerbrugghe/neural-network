@@ -60,12 +60,6 @@ def doorloopEenEpoch(epoch):
         print("")
         print("")
 
-def aanpassenWeight0():
-    return w0 + learningRate * ()
-
-def aanpassenWeight1():
-    return 0
-
 while not epochIsGelijk():
     doorloopEenEpoch()
     epoch+=1
@@ -82,5 +76,5 @@ while not epochIsGelijk():
         print("Epoch = " + str(epoch - 1))
         print("")
         print("De waarden zijn nog niet correct en worden aangepast")
-        w0 = aanpassenWeight0()
-        w1 = aanpassenWeight1()
+        #w0 = w0 + learningRate * (#dit moet nog ingegeven worden)*1
+        #w1 = w1 + learningRate * (#dit moet nog ingegeven worden)*1
